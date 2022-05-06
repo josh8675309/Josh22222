@@ -15,28 +15,3 @@ library(janitor)
 
 ```
 
-```{r}
-
-complaints %>%
-  filter(state == "NC") %>%
-  group_by(product)
-
-```
-
-
-```{r}
-
-complaints %>%
-  filter(yy_received == "2020") %>%
-  group_by(submitted_via)
-
-```
-
-
-
-```{r}
-
-complaints %>%
-  count(submitted_via == "Web")
-
-```
