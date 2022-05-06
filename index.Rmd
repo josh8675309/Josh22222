@@ -2,6 +2,7 @@
 title: "Josh"
 author: "Josh"
 date: "5/6/2022"
+"About : Using the complaint data and some simple R charts we were able to find some interesting things. For example we were able to determine that around 351000 out of 390000 complaints were submitted over the web"
 output: html_document
 ---
 
