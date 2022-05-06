@@ -7,10 +7,18 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(lubridate)
+library(janitor)
+
+
 ```
 
 ```{r}
 
-#wfd
+complaints %>%
+  filter(state == "NC") %>%
+  group_by(product)
 
 ```
